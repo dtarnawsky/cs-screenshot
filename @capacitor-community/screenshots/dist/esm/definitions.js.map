@@ -1,0 +1,1 @@
+{"version":3,"file":"definitions.js","sourceRoot":"","sources":["../../src/definitions.ts"],"names":[],"mappings":"","sourcesContent":["export interface ScreenshotsPlugin {\n  /**\n   * Disable screenshots\n   * @since 4.0.0\n   */\n  disableScreenshots(): Promise<void>;\n\n   /**\n   * Enable screenshots\n   * @since 4.0.0\n   */\n  enableScreenshots(): Promise<void>;\n}\n"]}

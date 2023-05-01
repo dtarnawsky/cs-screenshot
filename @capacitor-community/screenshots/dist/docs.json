@@ -1,0 +1,44 @@
+{
+  "api": {
+    "name": "ScreenshotsPlugin",
+    "slug": "screenshotsplugin",
+    "docs": "",
+    "tags": [],
+    "methods": [
+      {
+        "name": "disableScreenshots",
+        "signature": "() => Promise<void>",
+        "parameters": [],
+        "returns": "Promise<void>",
+        "tags": [
+          {
+            "name": "since",
+            "text": "4.0.0"
+          }
+        ],
+        "docs": "Disable screenshots",
+        "complexTypes": [],
+        "slug": "disablescreenshots"
+      },
+      {
+        "name": "enableScreenshots",
+        "signature": "() => Promise<void>",
+        "parameters": [],
+        "returns": "Promise<void>",
+        "tags": [
+          {
+            "name": "since",
+            "text": "4.0.0"
+          }
+        ],
+        "docs": "Enable screenshots",
+        "complexTypes": [],
+        "slug": "enablescreenshots"
+      }
+    ],
+    "properties": []
+  },
+  "interfaces": [],
+  "enums": [],
+  "typeAliases": []
+}
